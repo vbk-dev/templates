@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom css  -->
+    <link rel="stylesheet" href="./css/style.css">
+        <!-- include your fontawesome kit here -->
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
+    <title>Login Template 1</title>
+</head>
+
+<body>
+    <div class="container h-100">
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="card card-container">
+                <img src="./icon/icon.svg" class="profile-img-card" alt="User Icon">
+                <p id="profile-name" class="profile-name-card">
+                    User Login Here
+                </p>
+                <form class="form-signin" id="signin-form" method="POST">
+                    <input type="email" id="inputEmail" name='email' class="form-control" placeholder="Email address" required autofocus>
+                    <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Login</button>
+                </form>
+                <a href="#" class="forgot-password">
+                    Forgot the password?
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery script cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <!-- Jquery Validator -->
+    <script src="./js/jquery.validate.min.js"></script>
+    <!-- Custom validation script -->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
